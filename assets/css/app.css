@@ -302,7 +302,7 @@ body {
     font-weight: 700;
     margin-bottom: 4rem;
     text-align: center;
-    color: var(--off-white);
+    color: var(--gold);
     text-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
     letter-spacing: 0.02em;
     animation: fadeInUp 0.8s ease-out;
