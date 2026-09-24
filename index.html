@@ -3,137 +3,457 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Haikal Iqbal</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="../assets/css/app.css">
+    <title>Haikal Iqbal | Graphic Designer</title>
+    <meta name="description" content="Portfolio of Mohammad Haikal Iqbal - Graphic Designer with 5 years of experience in fashion apparel graphics, brand campaigns, video editing, and digital media.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="assets/css/app.css">
 </head>
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar">
+    <!-- Sticky Glassmorphic Navbar -->
+    <nav class="navbar-custom">
         <div class="container d-flex align-items-center justify-content-between">
-            <a href="index.html" class="navbar-brand">Haikal Iqbal</a>
-            <div class="d-flex">
-                <a href="index.html" class="nav-link active">Home</a>
-                <a href="work/about.html" class="nav-link">About</a>
+            <a href="index.html" class="brand-wrapper">
+                <div class="brand-monogram">HI</div>
+                <div class="brand-title">
+                    <span>Haikal Iqbal</span>
+                    <span class="brand-role">Graphic Designer</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <div class="nav-links-wrap">
+                <a href="#work" class="nav-pill active">Work</a>
+                <a href="#skills" class="nav-pill">Skills</a>
+                <a href="work/about.html" class="nav-pill">About</a>
+                <a href="mailto:mohammadhaikaliqbal@gmail.com" class="nav-btn-cta">
+                    <i class="fas fa-paper-plane"></i> Contact
+                </a>
             </div>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
         </div>
     </nav>
 
-    <!-- Main Content -->
-    <div class="main-content">
-        <!-- About Section -->
-        <section class="about-section">
-            <div class="container">
-                <h1>Mohammad Haikal Iqbal</h1>
-                <p>A Graphic Designer with over 4 years of experience across fashion, retail, and corporate sectors. Skilled in creating end-to-end visual assets for apparel brand, social media campaigns, and marketing initiatives using Adobe Photoshop, Illustrator, Canva, and CapCut.</p>
-                <p>Experienced in maintaining strong visual consistency, supporting product launches, and collaborating with teams under tight deadlines. Passionate about delivering impactful designs that support brand growth and engagement.</p>
-                <div class="skills-section">
-                    <h3>Skills & Tools</h3>
-    
-                    <!-- Graphic Design Skills -->
-                    <div class="skill-category">
-                        <h4>Graphic Design</h4>
-                        <div class="skills-list">
-                            <span class="skill-tag">Adobe Photoshop</span>
-                            <span class="skill-tag">Adobe Illustrator</span>
-                            <span class="skill-tag">CapCut</span>
-                            <span class="skill-tag">Canva</span>
-                            <span class="skill-tag">Figma</span>
-                            <span class="skill-tag">Video Editing</span>
-                            <span class="skill-tag">Photography</span>
+    <!-- Main Container -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-glow-1"></div>
+            <div class="hero-glow-2"></div>
+            <div class="container position-relative" style="z-index: 2;">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-7">
+                        <div class="status-badge">
+                            <span class="status-dot"></span>
+                            <span>Available for new roles</span>
+                        </div>
+                        <h1 class="hero-title">
+                            Graphic Designer in <span class="text-gold-gradient">Fashion, Retail</span> & Digital Media.
+                        </h1>
+                        <p class="hero-lead">
+                            I'm <strong>Mohammad Haikal Iqbal</strong>, a Graphic Designer with 5 years of experience in fashion, retail, and marketing campaigns. I specialize in apparel graphics, textile pattern design, short-form video editing, and AI-powered TikTok Live stream setup.
+                        </p>
+                        <div class="hero-cta-group">
+                            <a href="#work" class="btn-luxury-primary">
+                                <span>See My Works</span>
+                                <i class="fas fa-arrow-down"></i>
+                            </a>
+                            <a href="work/about.html" class="btn-luxury-outline">
+                                <span>Read Full Resume</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
                         </div>
                     </div>
-
-                    <!-- E-Commerce Skills -->
-                    <div class="skill-category">
-                        <h4>E-Commerce & Social Media</h4>
-                        <div class="skills-list">
-                            <span class="skill-tag">Easy Store</span>
-                            <span class="skill-tag">TikTok Content Creation</span>
-                            <span class="skill-tag">TikTok Live Streaming Setup</span>
-                            <span class="skill-tag">TikTok Shop Management</span>
+                    <div class="col-lg-5 text-center">
+                        <div class="hero-visual-card mx-auto" style="max-width: 380px;">
+                            <div class="hero-photo-wrapper">
+                                <img src="assets/img/profile.jpeg" alt="Mohammad Haikal Iqbal - Graphic Designer">
+                            </div>
+                            <div class="hero-badge-overlay">
+                                <i class="fas fa-award"></i>
+                                <span>5 Years Design Experience</span>
+                            </div>
                         </div>
-                    </div>
-                </div>
-
-                <div class="contact-info">
-                    <h3>Contact</h3>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>Nilai, Negeri Sembilan, Malaysia</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <a href="mailto:mohammadhaikaliqbal@gmail.com">mohammadhaikaliqbal@gmail.com</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Work Section -->
-        <section class="work-section">
+        <!-- Selected Work / Portfolio Section -->
+        <section id="work" class="work-section">
             <div class="container">
-                <h2>Portfolio</h2>
-                <div class="work-grid">
-                    <!-- Company 1: RonaJingga -->
-                    <a href="work/ronajingga.html" class="company-card">
-                        <img src="../../assets/img/ronajingga/ecom%20release/SURI/KEBAYA%20SURI%20MEKAR%20STANDARTrj%208281.jpg" alt="RonaJingga">
-                        <div class="company-overlay">
-                            <h3>RonaJingga</h3>
-                            <p>Fashion Graphics & Brand Campaign • June 2022 - Present</p>
-                        </div>
-                    </a>
+                <div class="section-header">
+                    <span class="section-tag">Portfolio</span>
+                    <h2 class="section-title">My Works</h2>
+                    <p class="section-desc">
+                        Work samples from apparel fashion campaigns, marketing videos, print materials, and retail branding.
+                    </p>
+                </div>
 
-                    <!-- Company 2: Elrah -->
-                    <a href="work/elrah.html" class="company-card">
-                        <img src="../../assets/img/elrah/thumbnail.png" alt="Elrah">
-                        <div class="company-overlay">
-                            <h3>Elrah</h3>
-                            <p>Freelance Video Editor • Mac 2025</p>
-                        </div>
-                    </a>
+                <!-- Category Filters -->
+                <div class="work-filter-wrap">
+                    <button class="filter-btn active" data-filter="all">All Works</button>
+                    <button class="filter-btn" data-filter="fashion">Fashion & Apparel</button>
+                    <button class="filter-btn" data-filter="video">Video & Motion</button>
+                    <button class="filter-btn" data-filter="branding">Branding & Print</button>
+                </div>
 
-                    <!-- Company 3: Digital Media -->
-                    <a href="work/digital-media.html" class="company-card">
-                        <img src="../../assets/img/digital-media/printing/BROCHURE%203.jpg" alt="Digital Media Project">
-                        <div class="company-overlay">
-                            <h3>Digital Media Project</h3>
-                            <p>Freelance Social Media Coordinator & Graphic Designer • Nov - Dec 2022</p>
-                        </div>
-                    </a>
+                <!-- Projects Grid -->
+                <div class="portfolio-grid">
 
-                    <!-- Company 4: Emas Anuar -->
-                    <a href="work/emasanuar.html" class="company-card">
-                        <img src="../../assets/img/emasanuar/event/SNAP&WIN.jpg"  alt="Emas Anuar">
-                        <div class="company-overlay">
-                            <h3>Emas Anuar Nilai</h3>
-                            <p>Print Design & Jewelry Photography • Mar - June 2022</p>
+                    <!-- Project 1: RonaJingga (Featured Full Width) -->
+                    <div class="portfolio-card featured" data-category="fashion">
+                        <div class="portfolio-img-box">
+                            <img src="assets/img/ronajingga/ecom release/SURI/KEBAYA SURI MEKAR STANDARTrj 8281.jpg" alt="RonaJingga Fashion Brand" loading="lazy">
+                            <div class="portfolio-badge-row">
+                                <span class="tag-badge gold">Current Work</span>
+                                <span class="tag-badge">Fashion & Apparel</span>
+                            </div>
                         </div>
-                    </a>
+                        <div class="portfolio-body">
+                            <div class="portfolio-client">
+                                <i class="fas fa-tag"></i> Big Impact Design & Resources
+                            </div>
+                            <h3 class="portfolio-title">RonaJingga Apparel Line</h3>
+                            <p class="portfolio-desc">
+                                Designed textile patterns and apparel graphics for RONA JINGGA fashion releases. Created teasers, lookbooks, size charts, and configured AI-powered TikTok live streams for product launches.
+                            </p>
+                            <div class="portfolio-footer">
+                                <div class="deliverables-list">
+                                    <span class="deliverable-chip">Apparel Graphics</span>
+                                    <span class="deliverable-chip">AI TikTok Live</span>
+                                    <span class="deliverable-chip">Lookbooks</span>
+                                    <span class="deliverable-chip">Textile Design</span>
+                                </div>
+                                <a href="work/ronajingga.html" class="view-case-link">
+                                    View Project <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
-                    <!-- Company 5: Adleesya Beauty -->
-                    <a href="work/adleesya.html" class="company-card">
-                        <img src="../../assets/img/adleesya/campaign/20211123-YEAR END SALE-0004-0097.jpg" alt="Adleesya Beauty">
-                        <div class="company-overlay">
-                            <h3>Adleesya Beauty</h3>
-                            <p>Graphic Designer • Dec 2021 - Mar 2022</p>
+                    <!-- Project 2: Elrah -->
+                    <div class="portfolio-card" data-category="video">
+                        <div class="portfolio-img-box">
+                            <img src="assets/img/elrah/thumbnail.png" alt="Elrah Video Marketing Campaign" loading="lazy">
+                            <div class="portfolio-badge-row">
+                                <span class="tag-badge">Video & Motion</span>
+                                <span class="tag-badge">Ramadan 2025</span>
+                            </div>
                         </div>
-                    </a>
+                        <div class="portfolio-body">
+                            <div class="portfolio-client">
+                                <i class="fas fa-film"></i> Elrah Exclusive
+                            </div>
+                            <h3 class="portfolio-title">Elrah Ramadan Marketing Video</h3>
+                            <p class="portfolio-desc">
+                                Edited short-form marketing videos for Elrah's Ramadan campaign with clear hooks, product details, subtitles, and urgent CTAs.
+                            </p>
+                            <div class="portfolio-footer">
+                                <div class="deliverables-list">
+                                    <span class="deliverable-chip">CapCut</span>
+                                    <span class="deliverable-chip">Short-Form Video</span>
+                                    <span class="deliverable-chip">Subtitling</span>
+                                </div>
+                                <a href="work/elrah.html" class="view-case-link">
+                                    Watch Video <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: Digital Media Project -->
+                    <div class="portfolio-card" data-category="branding">
+                        <div class="portfolio-img-box">
+                            <img src="assets/img/digital-media/printing/BROCHURE 3.jpg" alt="Digital Media Project Print Collateral" loading="lazy">
+                            <div class="portfolio-badge-row">
+                                <span class="tag-badge">Branding & Print</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-client">
+                                <i class="fas fa-bullhorn"></i> Digital Media Project
+                            </div>
+                            <h3 class="portfolio-title">Editorial Print & Social Identity</h3>
+                            <p class="portfolio-desc">
+                                Designed event posters, promotional brochures, and templates using Photoshop and Canva. Produced short TikTok videos to increase campaign engagement.
+                            </p>
+                            <div class="portfolio-footer">
+                                <div class="deliverables-list">
+                                    <span class="deliverable-chip">Brochure Design</span>
+                                    <span class="deliverable-chip">Social Media</span>
+                                    <span class="deliverable-chip">TikTok Video</span>
+                                </div>
+                                <a href="work/digital-media.html" class="view-case-link">
+                                    View Project <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: Emas Anuar Nilai -->
+                    <div class="portfolio-card" data-category="branding">
+                        <div class="portfolio-img-box">
+                            <img src="assets/img/emasanuar/event/SNAP&WIN.jpg" alt="Emas Anuar Nilai Marketing" loading="lazy">
+                            <div class="portfolio-badge-row">
+                                <span class="tag-badge">Retail & Photography</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-client">
+                                <i class="fas fa-gem"></i> Emas Anuar Nilai
+                            </div>
+                            <h3 class="portfolio-title">Festive Campaign & Jewelry Shots</h3>
+                            <p class="portfolio-desc">
+                                Took macro product photos of gold jewelry, created marketing posters, and designed festive Hari Raya Aidilfitri promotional materials for the retail store.
+                            </p>
+                            <div class="portfolio-footer">
+                                <div class="deliverables-list">
+                                    <span class="deliverable-chip">Macro Photography</span>
+                                    <span class="deliverable-chip">Event Posters</span>
+                                    <span class="deliverable-chip">Photoshop</span>
+                                </div>
+                                <a href="work/emasanuar.html" class="view-case-link">
+                                    View Project <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5: Adleesya Beauty -->
+                    <div class="portfolio-card" data-category="branding fashion">
+                        <div class="portfolio-img-box">
+                            <img src="assets/img/adleesya/campaign/20211123-YEAR END SALE-0004-0097.jpg" alt="Adleesya Beauty Campaign" loading="lazy">
+                            <div class="portfolio-badge-row">
+                                <span class="tag-badge">Beauty & Cosmetic</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-body">
+                            <div class="portfolio-client">
+                                <i class="fas fa-sparkles"></i> Adleesya Beauty
+                            </div>
+                            <h3 class="portfolio-title">Year-End Sales & Event Staging</h3>
+                            <p class="portfolio-desc">
+                                Designed promotional sale banners, Shopee ads, and YouTube thumbnails to support product launches and events.
+                            </p>
+                            <div class="portfolio-footer">
+                                <div class="deliverables-list">
+                                    <span class="deliverable-chip">Sale Banners</span>
+                                    <span class="deliverable-chip">YouTube Thumbnails</span>
+                                    <span class="deliverable-chip">Event Graphics</span>
+                                </div>
+                                <a href="work/adleesya.html" class="view-case-link">
+                                    View Project <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
-    </div>
+
+        <!-- Skills & Creative Arsenal Section -->
+        <section id="skills" class="skills-section-revamped">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Skills</span>
+                    <h2 class="section-title">Tools & Capabilities</h2>
+                    <p class="section-desc">
+                        Software, video tools, and e-commerce platforms I use in my daily work.
+                    </p>
+                </div>
+
+                <div class="skills-grid-wrapper">
+
+                    <!-- Category 1: Design Software -->
+                    <div class="skill-category-card">
+                        <div class="skill-cat-header">
+                            <div class="skill-cat-icon">
+                                <i class="fas fa-bezier-curve"></i>
+                            </div>
+                            <div>
+                                <h3 class="skill-cat-title">Design Software</h3>
+                            </div>
+                        </div>
+                        <div class="skill-items-list">
+                            <div class="skill-row-item">
+                                <div class="skill-row-left">
+                                    <div class="skill-icon-thumb" style="background:#001E36;">
+                                        <span style="color:#31A8FF; font-weight:700; font-size:11px;">Ps</span>
+                                    </div>
+                                    <span class="skill-row-name">Adobe Photoshop</span>
+                                </div>
+                                <span class="skill-row-badge">Advanced</span>
+                            </div>
+                            <div class="skill-row-item">
+                                <div class="skill-row-left">
+                                    <div class="skill-icon-thumb" style="background:#330000;">
+                                        <span style="color:#FF9A00; font-weight:700; font-size:11px;">Ai</span>
+                                    </div>
+                                    <span class="skill-row-name">Adobe Illustrator</span>
+                                </div>
+                                <span class="skill-row-badge">Advanced</span>
+                            </div>
+                            <div class="skill-row-item">
+                                <div class="skill-row-left">
+                                    <div class="skill-icon-thumb" style="background:#00C4CC;">
+                                        <span style="color:#ffffff; font-weight:700; font-size:11px;">Ca</span>
+                                    </div>
+                                    <span class="skill-row-name">Canva Pro</span>
+                                </div>
+                                <span class="skill-row-badge">Advanced</span>
+                            </div>
+                            <div class="skill-row-item">
+                                <div class="skill-row-left">
+                                    <div class="skill-icon-thumb" style="background:#1E1E1E;">
+                                        <span style="color:#A259FF; font-weight:700; font-size:11px;">Fig</span>
+                                    </div>
+                                    <span class="skill-row-name">Figma</span>
+                                </div>
+                                <span class="skill-row-badge">Beginner</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category 2: Video & Content -->
+                    <div class="skill-category-card">
+                        <div class="skill-cat-header">
+                            <div class="skill-cat-icon">
+                                <i class="fas fa-video"></i>
+                            </div>
+                            <div>
+                                <h3 class="skill-cat-title">Video & Media</h3>
+                            </div>
+                        </div>
+                        <div class="skill-items-list">
+                            <div class="skill-row-item">
+                                <div class="skill-row-left">
+                                    <div class="skill-icon-thumb" style="background:#000;">
+                                        <i class="fas fa-play" style="color:#fff; font-size:10px;"></i>
+                                    </div>
+                                    <span class="skill-row-name">CapCut Video Editing</span>
+                                </div>
+                                <span class="skill-row-badge">Advanced</span>
+                            </div>
+                            <div class="skill-row-item">
+                                <div class="skill-row-left">
+                                    <div class="skill-icon-thumb" style="background:#111;">
+                                        <i class="fab fa-tiktok" style="color:#FE2C55; font-size:11px;"></i>
+                                    </div>
+                                    <span class="skill-row-name">TikTok Short-Form Videos</span>
+                                </div>
+                                <span class="skill-row-badge">Experienced</span>
+                            </div>
+                            <div class="skill-row-item">
+                                <div class="skill-row-left">
+                                    <div class="skill-icon-thumb" style="background:#111;">
+                                        <i class="fas fa-robot" style="color:var(--gold); font-size:11px;"></i>
+                                    </div>
+                                    <span class="skill-row-name">AI TikTok Live Stream Setup</span>
+                                </div>
+                                <span class="skill-row-badge">Experienced</span>
+                            </div>
+                            <div class="skill-row-item">
+                                <div class="skill-row-left">
+                                    <div class="skill-icon-thumb" style="background:#111;">
+                                        <i class="fas fa-camera" style="color:var(--gold); font-size:11px;"></i>
+                                    </div>
+                                    <span class="skill-row-name">Product & Macro Photography</span>
+                                </div>
+                                <span class="skill-row-badge">Experienced</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category 3: Fashion & E-Commerce -->
+                    <div class="skill-category-card">
+                        <div class="skill-cat-header">
+                            <div class="skill-cat-icon">
+                                <i class="fas fa-shopping-bag"></i>
+                            </div>
+                            <div>
+                                <h3 class="skill-cat-title">Fashion & E-Commerce</h3>
+                            </div>
+                        </div>
+                        <div class="skill-items-list">
+                            <div class="skill-row-item">
+                                <div class="skill-row-left">
+                                    <div class="skill-icon-thumb" style="background:#111;">
+                                        <i class="fas fa-palette" style="color:var(--gold); font-size:11px;"></i>
+                                    </div>
+                                    <span class="skill-row-name">Fashion Line Graphics</span>
+                                </div>
+                                <span class="skill-row-badge">Core Skill</span>
+                            </div>
+                            <div class="skill-row-item">
+                                <div class="skill-row-left">
+                                    <div class="skill-icon-thumb" style="background:#111;">
+                                        <i class="fab fa-tiktok" style="color:var(--gold); font-size:11px;"></i>
+                                    </div>
+                                    <span class="skill-row-name">TikTok Shop & EasyStore</span>
+                                </div>
+                                <span class="skill-row-badge">Experienced</span>
+                            </div>
+                            <div class="skill-row-item">
+                                <div class="skill-row-left">
+                                    <div class="skill-icon-thumb" style="background:#111;">
+                                        <i class="fas fa-print" style="color:var(--gold); font-size:11px;"></i>
+                                    </div>
+                                    <span class="skill-row-name">Print Marketing Materials</span>
+                                </div>
+                                <span class="skill-row-badge">Experienced</span>
+                            </div>
+                            <div class="skill-row-item">
+                                <div class="skill-row-left">
+                                    <div class="skill-icon-thumb" style="background:#111;">
+                                        <i class="fas fa-tshirt" style="color:var(--gold); font-size:11px;"></i>
+                                    </div>
+                                    <span class="skill-row-name">Textile & Fabric Pattern Design</span>
+                                </div>
+                                <span class="skill-row-badge">Experienced</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
 
     <!-- Footer -->
-    <footer>
+    <footer class="site-footer">
         <div class="container">
-            <p>&copy; <span id="currentYear"></span> Haikal Iqbal. All rights reserved.</p>
+            <div class="footer-inner">
+                <div class="d-flex align-items-center gap-2">
+                    <span style="color:var(--gold); font-weight:700;">H.I</span>
+                    <span>&copy; <span id="currentYear"></span> Mohammad Haikal Iqbal. All rights reserved.</span>
+                </div>
+                <div class="footer-social-links">
+                    <a href="mailto:mohammadhaikaliqbal@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://haikaliqbal11.github.io/" target="_blank" title="Website"><i class="fas fa-globe"></i></a>
+                    <a href="work/resume.html" target="_blank" title="Printable Resume"><i class="fas fa-file-alt"></i></a>
+                </div>
+            </div>
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <script src="../assets/js/app.js"></script>
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/app.js"></script>
 </body>
 </html>

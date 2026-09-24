@@ -3,51 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elrah - Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="../../assets/css/app.css">
+    <title>Elrah Exclusive Video Campaign | Mohammad Haikal Iqbal</title>
+    <meta name="description" content="Commercial video editing for Elrah Exclusive Ramadan Campaign by Mohammad Haikal Iqbal.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="../assets/css/app.css">
 </head>
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar">
+    <!-- Sticky Glassmorphic Navbar -->
+    <nav class="navbar-custom">
         <div class="container d-flex align-items-center justify-content-between">
-            <a href="../index.html" class="navbar-brand">Haikal Iqbal</a>
-            <div class="d-flex">
-                <a href="../index.html" class="nav-link">Home</a>
-                <a href="about.html" class="nav-link">About</a>
+            <a href="../index.html" class="brand-wrapper">
+                <div class="brand-monogram">HI</div>
+                <div class="brand-title">
+                    <span>Haikal Iqbal</span>
+                    <span class="brand-role">Graphic Designer</span>
+                </div>
+            </a>
+            <div class="nav-links-wrap">
+                <a href="../index.html" class="nav-pill">Home</a>
+                <a href="../index.html#work" class="nav-pill active">Work</a>
+                <a href="about.html" class="nav-pill">About</a>
+                <a href="mailto:mohammadhaikaliqbal@gmail.com" class="nav-btn-cta">
+                    <i class="fas fa-paper-plane"></i> Contact
+                </a>
             </div>
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
         </div>
     </nav>
 
-    <div class="main-content">
+    <!-- Detail Page Content -->
+    <main class="detail-page-wrapper">
         <div class="container">
-            <div class="detail-header">
-                <h1>Elrah</h1>
-                <p>Freelance Video Editor • Mac 2025</p>
+            <!-- Back Navigation -->
+            <a href="../index.html#work" class="detail-nav-back">
+                <i class="fas fa-arrow-left"></i> Back to All Projects
+            </a>
+
+            <!-- Header Card -->
+            <div class="detail-header-card">
+                <h1>Elrah Exclusive</h1>
+                <div class="detail-header-meta">
+                    <span><i class="fas fa-briefcase"></i> Freelance Video Editor</span>
+                    <span><i class="fas fa-calendar-alt"></i> March 2025</span>
+                    <span><i class="fas fa-film"></i> Short-Form Campaign Video</span>
+                </div>
             </div>
-            
-            <div class="row">
-                <div class="col-12">
-                    <div class="video-container mb-4">
-                        <video controls width="100%">
-                            <source src="../../assets/videos/elrah/elrah.mp4" type="video/mp4">
+
+            <!-- Video Player -->
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="detail-section-title">Commercial Video Reel</div>
+                    <div class="video-luxury-box">
+                        <video controls poster="../assets/img/elrah/thumbnail.png">
+                            <source src="../assets/videos/elrah/elrah.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <footer>
+            <!-- Project Context & Takeaways -->
+            <div class="row justify-content-center mt-3">
+                <div class="col-lg-10">
+                    <div class="resume-section-card">
+                        <div class="card-heading-wrap">
+                            <h2 class="card-heading-title">
+                                <i class="fas fa-info-circle"></i> Project Overview
+                            </h2>
+                        </div>
+                        <p class="text-secondary" style="font-size: 1rem; line-height: 1.8;">
+                            Edited promotional short-form video content designed for maximum virality and viewer retention during Elrah's major Ramadan retail campaign. Implemented fast-paced hook sequencing, rhythmic beat cuts, bespoke typography overlays, color grading, and crisp subtitle styling to elevate conversion rates.
+                        </p>
+                        <div class="d-flex flex-wrap gap-2 mt-3">
+                            <span class="tag-badge gold">CapCut Pro</span>
+                            <span class="tag-badge">Ramadan Festive Launch</span>
+                            <span class="tag-badge">Audio Sync & Sound FX</span>
+                            <span class="tag-badge">Color Grading</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
         <div class="container">
-            <p>&copy; <span id="currentYear"></span> Haikal Iqbal. All rights reserved.</p>
+            <div class="footer-inner">
+                <div class="d-flex align-items-center gap-2">
+                    <span style="color:var(--gold); font-weight:700;">H.I</span>
+                    <span>&copy; <span id="currentYear"></span> Mohammad Haikal Iqbal. All rights reserved.</span>
+                </div>
+                <div class="footer-social-links">
+                    <a href="mailto:mohammadhaikaliqbal@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="../index.html#work"><i class="fas fa-th-large"></i></a>
+                    <a href="about.html"><i class="fas fa-file-alt"></i></a>
+                </div>
+            </div>
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="../../assets/js/app.js"></script>
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/app.js"></script>
 </body>
 </html>
